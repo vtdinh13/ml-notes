@@ -20,3 +20,7 @@
         - One key lesson was that explicit ratings are sparse and don’t capture many signals that matter in practice
         - implicit feedback (plays, pauses, searches, dwell time) provides richer and more abundant data but reflects observing behavior rather than direct preference. 
         - Models must interpret implicit signals carefully (e.g., a skipped video could mean disinterest or lack of time). So, even though the contest optimized a rating-prediction metric, the real-world value at Netflix came from modeling implicit feedback and optimizing ranking or personalization experiences tied to engagement.
+
+# Other
+1. A tuple is an ordered, fixed-length collection of values. You create one with parentheses like ("movie", 4.5, True). Because it’s immutable, the items and length can’t change after creation. It’s handy for bundling related values together when you don’t need to modify the grouping—for example, returning multiple objects from a function as a single result.
+
